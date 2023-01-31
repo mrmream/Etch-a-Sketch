@@ -1,0 +1,38 @@
+body {
+    background-color: gray;
+    
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #canvas {
+    text-align: center;
+    border-width: 20%;
+    border-color: aqua;
+    padding: 35px;
+    font-size: 30px;
+    color: black;
+    background-color: whitesmoke;
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+  }
+  #title {
+    text-align: center;
+    font-weight: bold;
+    background-color: wheat;
+    color: black;
+    border: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    display: block;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+  }
+  
