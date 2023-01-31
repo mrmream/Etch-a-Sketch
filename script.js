@@ -6,8 +6,9 @@ canvas.addEventListener("mousemove", (e) => {
     let color = "aqua";
     let size = document.querySelector('input[name="width"]:checked').value;
 
-    if (x >= canvas.offsetLeft + canvas.offsetWidth || x <= canvas.offsetLeft || 
-        y >= canvas.offsetTop + canvas.offsetHeight || y <= canvas.offsetTop) {
+    // Check if the mouse position is outside the canvas element
+    if (x < canvas.offsetLeft || x > canvas.offsetLeft + canvas.offsetWidth ||
+        y < canvas.offsetTop || y > canvas.offsetTop + canvas.offsetHeight) {
         return;
     }
     
@@ -27,6 +28,7 @@ const resetButton = document.querySelector("#reset-button");
 resetButton.addEventListener("click", () => {
   canvas.innerHTML = "";
 });
+
 
 
 

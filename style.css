@@ -12,7 +12,7 @@ body {
 #canvas {
     text-align: center;
     border: 1px solid black;
-    padding: auto;
+    padding: 0px;
     font-size: 30px;
     color: black;
     background-color: whitesmoke;
