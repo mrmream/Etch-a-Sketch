@@ -11,13 +11,13 @@ body {
 
 #canvas {
     text-align: center;
-    border: 10px solid aqua;
-    padding: 35px;
+    border: 1px solid black;
+    padding: auto;
     font-size: 30px;
     color: black;
     background-color: whitesmoke;
-    width: 80%;
-    height: 80%;
+    width: 1500px;
+    height: 500px;
     border-radius: 10px;
 }
 
@@ -35,5 +35,6 @@ body {
     margin: 0 auto;
     font-family: 'Cursive', sans-serif;
 }
+
 
   
