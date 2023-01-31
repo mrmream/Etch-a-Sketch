@@ -1,6 +1,5 @@
 body {
-    background-color: gray;
-    
+    background: linear-gradient(to bottom, #ff9f43, #ff5e57);
 }
 
 #container {
@@ -8,12 +7,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-  }
-  
-  #canvas {
+}
+
+#canvas {
     text-align: center;
-    border-width: 20%;
-    border-color: aqua;
+    border: 10px solid aqua;
     padding: 35px;
     font-size: 30px;
     color: black;
@@ -21,18 +19,21 @@ body {
     width: 80%;
     height: 80%;
     border-radius: 10px;
-  }
-  #title {
+}
+
+#title {
     text-align: center;
     font-weight: bold;
     background-color: wheat;
     color: black;
-    border: 10px;
+    border: 10px solid wheat;
     border-radius: 20px;
     padding: 20px;
     display: block;
     justify-content: center;
     width: 50%;
     margin: 0 auto;
-  }
+    font-family: 'Cursive', sans-serif;
+}
+
   
